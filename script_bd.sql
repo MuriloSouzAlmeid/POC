@@ -10,8 +10,3 @@ CREATE TABLE ncm_entries(
 	[description] TEXT NOT NULL,
 	created_at DATETIME2(3) NOT NULL
 );
-
-INSERT INTO ncm_entries (id, [user], ipi, ncm, description, created_at) VALUES (NEWID(), 'student', ' ', '1', 'ANIMAIS VIVOS', 1747702650.851647)
-
-SELECT * FROM ncm_entries;
-DELETE FROM ncm_entries
