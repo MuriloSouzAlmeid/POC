@@ -24,7 +24,7 @@ def create_ncm_entrie(user: str, ipi: str, ncm: str, description: str, created_a
 def get_ncms_by_page(offset, limit):
     with Session(engine) as session:
         try:
-            query_by_limit = select(NcmEntries).offset(offset).limit(limit).order_by(NcmEntries.created_at)
+            query_by_limit = select(NcmEntries).order_by(NcmEntries.created_at.desc()).offset(offset).limit(limit)
             ncms_list =  session.exec(query_by_limit).all()
 
             return ncms_list

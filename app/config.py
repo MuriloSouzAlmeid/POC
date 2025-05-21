@@ -5,8 +5,9 @@ class Settings(BaseSettings):
     poc_expiration_token_time: int = 30
     poc_algorithm_jwt_token: str = "HS256"
     poc_selenium_headless: str = "S"
+    poc_stringconnection_database: str
 
-    model_config = SettingsConfigDict(env_file=" .env")
+    model_config = SettingsConfigDict(env_file=".env")
 
 settings = Settings()
 

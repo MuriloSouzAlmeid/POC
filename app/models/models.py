@@ -1,6 +1,7 @@
 from app.models import SQLModel, Field, datetime, create_engine, HTTPException
 import uuid
 from app.logging import logging
+from app.config import settings
 
 class NcmEntries(SQLModel, table=True):
     __tablename__ = "ncm_entries"
@@ -12,7 +13,7 @@ class NcmEntries(SQLModel, table=True):
     description: str
     created_at : datetime
 
-string_connection = "mssql+pyodbc://sa:Murilo12%24@NOTEBOOKFAMILIA/POC_Database?""driver=ODBC+Driver+17+for+SQL+Server&TrustServerCertificate=yes"
+string_connection = settings.poc_stringconnection_database
 
 try:
     engine = create_engine(string_connection)

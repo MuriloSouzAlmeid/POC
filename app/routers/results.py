@@ -13,7 +13,7 @@ def get_ncms_paged(skip : int, limit : int, current_user : Annotated[User, Depen
     logging.info("Finalizou-se operacao de busca de ncms paginada")
     return ncms_list
 
-@router.get("/export", status_code=200)
+@router.get("/export", status_code=200, tags=["export-data"])
 async def export_ncm_entries_data(current_user : Annotated[User, Depends(get_current_user)]):
     logging.info("Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx")
     try:

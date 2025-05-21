@@ -1,0 +1,35 @@
+2025-05-21 10:18:30,173 - ERROR - Mensagem: Ocorreu um erro ao conectar criar um engine com a string de conexao fornecida Função: <module> Arquivo: models.py
+2025-05-21 10:19:34,614 - ERROR - Mensagem: Ocorreu um erro ao conectar criar um engine com a string de conexao fornecida Função: <module> Arquivo: models.py
+2025-05-21 10:20:23,165 - ERROR - Mensagem: Ocorreu um erro ao conectar criar um engine com a string de conexao fornecida Função: <module> Arquivo: models.py
+2025-05-21 10:26:51,081 - ERROR - Mensagem: Ocorreu um erro ao conectar criar um engine com a string de conexao fornecida Função: <module> Arquivo: models.py
+2025-05-21 10:27:36,560 - ERROR - Mensagem: Ocorreu um erro ao conectar criar um engine com a string de conexao fornecida Função: <module> Arquivo: models.py
+2025-05-21 10:35:30,718 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-21 10:35:39,232 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 10:35:39,232 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 10:35:39,232 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-21 10:35:56,179 - INFO - Mensagem: Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 10:35:56,768 - INFO - Mensagem: Fizalizou-se operacao de exportação da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 10:40:34,046 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-21 10:40:40,442 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 10:40:40,442 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 10:40:40,442 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-21 10:40:55,771 - INFO - Mensagem: Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 10:40:56,281 - INFO - Mensagem: Fizalizou-se operacao de exportação da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 10:54:52,682 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-21 10:54:59,313 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 10:54:59,314 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 10:54:59,314 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-21 10:55:12,032 - INFO - Mensagem: Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 10:55:12,468 - INFO - Mensagem: Fizalizou-se operacao de exportação da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 10:56:13,710 - INFO - Mensagem: Iniciou-se operacao de busca e registro de ncms na tabela ncm_entries Função: start_automation Arquivo: automation.py
+2025-05-21 10:56:42,310 - INFO - Mensagem: Iniciou-se operacao de busca e registro de ncms na tabela ncm_entries Função: start_automation Arquivo: automation.py
+2025-05-21 10:56:58,452 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 10:56:58,466 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 10:57:13,543 - INFO - Mensagem: Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 10:57:13,628 - INFO - Mensagem: Fizalizou-se operacao de exportação da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 11:08:38,660 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-21 11:08:45,073 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 11:08:45,073 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 11:08:45,073 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-21 11:08:58,388 - INFO - Mensagem: Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 11:08:58,821 - INFO - Mensagem: Fizalizou-se operacao de exportação da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py

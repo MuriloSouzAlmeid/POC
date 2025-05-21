@@ -28,11 +28,11 @@ def preencher_planilha():
 
     try:
         with Session(engine) as session:
-            query = select(NcmEntries).order_by(NcmEntries.created_at)
+            query = select(NcmEntries).order_by(NcmEntries.created_at.desc())
             ncms_list = session.exec(query)
 
             #armazena os valores máximos das colunas
-            column_widths = [0, 0, 0, 0, 0]
+            column_widths = 5*[0]
 
             for ncm in ncms_list:
                 linha_planilha = [str(ncm.id), ncm.ipi, ncm.ncm, ncm.description, str(ncm.created_at)]
