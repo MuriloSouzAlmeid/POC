@@ -82,19 +82,35 @@ Um breve tutorial com exemplos de uso das rotas da API criada por meio do Swagge
 
 ### Acessando a Documentação
 
+Funcionalidade a detalhar...
+
 ### Realizando o Login na Aplicação
+
+Funcionalidade a detalhar...
 
 ### Autenticação via JWT Bearer token
 
+Funcionalidade a detalhar...
+
 ### Iniciando Automoção de Extração de NCM
+
+Funcionalidade a detalhar...
 
 ### Listando NCMs Persistidos no Banco
 
+Funcionalidade a detalhar...
+
 ### Selecionando NCM Desejado pelo ID
+
+Funcionalidade a detalhar...
 
 ### Deletando NCM Selecionado pelo ID
 
+Funcionalidade a detalhar...
+
 ### Exportanto Dados Persistidos no Banco para uma Planilha Excel
+
+Funcionalidade a detalhar...
 
 ## Demonstração do fluxo completo:
 
