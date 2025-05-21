@@ -1,5 +1,5 @@
 from app.routers import APIRouter, uuid, Depends, Annotated, FileResponse, HTTPException
-from app.crud.crud import get_ncm_by_id, delete_ncm, get_ncms_by_page
+from app.crud.crud import get_ncm_by_id, delete_ncm, get_ncms_by_page, get_all_ncms
 from app.auth.auth import get_current_user, User
 from app.export.export import preencher_planilha
 from app.logging import logging
@@ -7,9 +7,9 @@ from app.logging import logging
 router = APIRouter(prefix="/ncm-results", tags=["ncm-results"])
 
 @router.get("", status_code=200)
-def get_ncms_paged(skip : int, limit : int, current_user : Annotated[User, Depends(get_current_user)]):
+def get_ncms_paged(current_user : Annotated[User, Depends(get_current_user)], skip : int = 0, limit : int | None = None):
     logging.info("Iniciou-se operacao de busca de ncms paginada")
-    ncms_list = get_ncms_by_page(skip, limit)
+    ncms_list =  get_all_ncms() if skip == 0 and limit == None else get_ncms_by_page(skip, limit)
     logging.info("Finalizou-se operacao de busca de ncms paginada")
     return ncms_list
 

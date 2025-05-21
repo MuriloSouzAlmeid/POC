@@ -20,6 +20,7 @@ def custom_openapi():
         title="POC - Desafio DevCertacon",
         version="1.0",
         summary="O projeto POC é uma prova de conceito que integra automação web com Selenium e uma API construída em FastAPI, com persistência de dados em Microsoft SQL Server usando o SQLModel e exportação de dados para um arquivo de planilhas Excel usando Openpyxl.",
+        description="Link para o repositório do projeto: `https://github.com/MuriloSouzAlmeid/POC`",
         routes=app.routes,
     )
     app.openapi_schema = openapi_schema

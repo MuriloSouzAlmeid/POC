@@ -21,11 +21,26 @@ def create_ncm_entrie(user: str, ipi: str, ncm: str, description: str, created_a
 
     return ncm_entrie
 
+def get_all_ncms():
+    with Session(engine) as session:
+        try:
+            query = select(NcmEntries).order_by(NcmEntries.created_at.desc())
+            ncm_list = session.exec(query).all()
+
+            return ncm_list
+        except:
+            logging.error("Ocorreu um erro ao tentar buscar todos os ncms")
+            raise HTTPException(status_code=500, detail="Erro interno de banco de dados")
+
 def get_ncms_by_page(offset, limit):
     with Session(engine) as session:
         try:
-            query_by_limit = select(NcmEntries).order_by(NcmEntries.created_at.desc()).offset(offset).limit(limit)
-            ncms_list =  session.exec(query_by_limit).all()
+            query = select(NcmEntries).order_by(NcmEntries.created_at.desc()).offset(offset)
+
+            if limit != None:
+                query = query.limit(limit)
+
+            ncms_list =  session.exec(query).all()
 
             return ncms_list
         except:
