@@ -1,3 +1,4 @@
 from app.models.models import NcmEntries
 from sqlmodel import Session, select
 from app.models.models import engine
+from fastapi.exceptions import HTTPException

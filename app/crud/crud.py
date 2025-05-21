@@ -1,7 +1,8 @@
-from app.crud import NcmEntries, Session, engine, select
+from app.crud import NcmEntries, Session, engine, select, HTTPException
 import uuid
+from app.logging import logging
 
-def create_ncm_rentrie(user: str, ipi: str, ncm: str, description: str, created_at):
+def create_ncm_entrie(user: str, ipi: str, ncm: str, description: str, created_at):
     ncm_entrie = NcmEntries(
         user=user, 
         ipi=ipi,
@@ -11,27 +12,46 @@ def create_ncm_rentrie(user: str, ipi: str, ncm: str, description: str, created_
     )
 
     with Session(engine) as session:
-        session.add(ncm_entrie)
-        session.commit()
+        try:
+            session.add(ncm_entrie)
+            session.commit()
+        except:
+            logging.error("Ocorreu um erro ao tentar cadastrar o ncm na tabela ncm_entries")
+            raise HTTPException(status_code=500, detail="Erro interno de banco de dados")
+
+    return ncm_entrie
 
 def get_ncms_by_page(offset, limit):
     with Session(engine) as session:
-        query_by_limit = select(NcmEntries).offset(offset).limit(limit).order_by(NcmEntries.id)
-        ncms_list =  session.exec(query_by_limit).all()
-        return ncms_list
+        try:
+            query_by_limit = select(NcmEntries).offset(offset).limit(limit).order_by(NcmEntries.created_at)
+            ncms_list =  session.exec(query_by_limit).all()
+
+            return ncms_list
+        except:
+            logging.error("Ocorreu um erro ao tentar buscar os ncms a partir do offset e limit informados")
+            raise HTTPException(status_code=500, detail="Erro interno de banco de dados")
+            
 
 def get_ncm_by_id(id_ncm : uuid.UUID):
     with Session(engine) as session:
-        ncm_by_id = session.get(NcmEntries, id_ncm)
-        return ncm_by_id
+        try:
+            ncm_by_id = session.get(NcmEntries, id_ncm)
+
+            return ncm_by_id
+        except:
+            logging.error("Ocorreu um erro ao tentar buscar o ncm com o ID informado")
+            raise HTTPException(status_code=500, detail="Erro interno de banco de dados")
     
 def delete_ncm(id_ncm : uuid.UUID):
     with Session(engine) as session:
-        ncm_buscado = get_ncm_by_id(id_ncm)
-
-        if ncm_buscado != None:
+        try:
+            ncm_buscado = get_ncm_by_id(id_ncm)
             session.delete(ncm_buscado)
-        session.commit()
+            session.commit()
+        except:
+            logging.error("Ocorreu um erro ao tentar deletar o ncm com o ID informado da tabela ncm_entries")
+            raise HTTPException(status_code=500, detail="Erro interno de banco de dados")
 
 
     

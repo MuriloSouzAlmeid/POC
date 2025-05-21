@@ -1,0 +1,48 @@
+2025-05-20 21:07:21,181 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:07:21,210 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:08:31,542 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:08:31,567 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:08:43,826 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:08:43,856 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:09:00,569 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:09:00,593 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:09:18,266 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:09:18,297 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:09:34,051 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:09:34,087 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:10:55,246 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:10:55,274 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:12:00,932 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:12:00,951 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:13:07,362 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:13:07,391 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:13:35,824 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:13:35,850 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:15:59,660 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:15:59,680 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:21:50,325 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:21:50,355 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:24:08,612 - INFO - Mensagem: Iniciou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:24:08,645 - INFO - Mensagem: Finalizou-se processo de conexão da aplicação com o banco de dados Função: <module> Arquivo: models.py
+2025-05-20 21:24:46,891 - INFO - Mensagem: Iniciou-se função de login de usuário Função: login Arquivo: login.py
+2025-05-20 21:24:59,649 - INFO - Mensagem: Inicio-se da criação do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-20 21:24:59,650 - INFO - Mensagem: Finalizou-se da criação do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-20 21:24:59,650 - INFO - Mensagem: Finalizou-se funcção de login de usuário Função: login Arquivo: login.py
+2025-05-20 21:26:59,491 - INFO - Mensagem: Iniciou-se função de login de usuário Função: login Arquivo: login.py
+2025-05-20 21:27:06,153 - INFO - Mensagem: Inicio-se da criação do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-20 21:27:06,154 - INFO - Mensagem: Finalizou-se da criação do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-20 21:27:06,154 - INFO - Mensagem: Finalizou-se funcção de login de usuário Função: login Arquivo: login.py
+2025-05-20 21:31:04,727 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-20 21:31:12,836 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-20 21:31:12,836 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-20 21:31:12,836 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-20 21:32:16,750 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-20 21:32:17,088 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-20 21:32:27,586 - INFO - Mensagem: Iniciou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-20 21:32:27,599 - INFO - Mensagem: Fizalizou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-20 21:32:44,232 - INFO - Mensagem: Iniciou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-20 21:32:44,256 - INFO - Mensagem: Fizalizou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-20 21:32:51,590 - INFO - Mensagem: Iniciou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-20 21:32:51,592 - ERROR - Mensagem: Nao foi encontrado ncm com ID fornecido como parametro Função: search_ncm_by_id Arquivo: results.py
+2025-05-20 21:32:56,834 - INFO - Mensagem: Iniciou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-20 21:32:56,838 - ERROR - Mensagem: Nao foi encontrado ncm com ID fornecido como parametro Função: delete_ncm_by_id Arquivo: results.py

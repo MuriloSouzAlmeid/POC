@@ -1,5 +1,6 @@
-from app.export import openpyxl, Session, select, opxl_styles, get_column_letter
+from app.export import openpyxl, Session, select, opxl_styles, get_column_letter, HTTPException
 from app.models.models import engine, NcmEntries
+from app.logging import logging
 
 def configurar_planilha(file : str):
     workbook = workbook = openpyxl.load_workbook(file)
@@ -25,20 +26,24 @@ def preencher_planilha():
     workbook = configurar_planilha(file_path)
     planilha = workbook.active
 
-    with Session(engine) as session:
-        query = select(NcmEntries).order_by(NcmEntries.created_at)
-        ncms_list = session.exec(query)
+    try:
+        with Session(engine) as session:
+            query = select(NcmEntries).order_by(NcmEntries.created_at)
+            ncms_list = session.exec(query)
 
-        #armazena os valores máximos das colunas
-        column_widths = [0, 0, 0, 0, 0]
+            #armazena os valores máximos das colunas
+            column_widths = [0, 0, 0, 0, 0]
 
-        for ncm in ncms_list:
-            linha_planilha = [str(ncm.id), ncm.ipi, ncm.ncm, ncm.description, str(ncm.created_at)]
-            planilha.append(linha_planilha)
+            for ncm in ncms_list:
+                linha_planilha = [str(ncm.id), ncm.ipi, ncm.ncm, ncm.description, str(ncm.created_at)]
+                planilha.append(linha_planilha)
 
-            #preenche column_widths com os valores máximos das colunas
-            for i in range(len(linha_planilha)):
-                column_widths[i] = max(column_widths[i], len(linha_planilha[i]))
+                #preenche column_widths com os valores máximos das colunas
+                for i in range(len(linha_planilha)):
+                    column_widths[i] = max(column_widths[i], len(linha_planilha[i]))
+    except:
+        logging.error("Ocorreu um erro ao buscar os dados da tabela ncm_entries")
+        raise HTTPException(status_code=500, detail="Erro interno de banco de dados")
 
     #aplica a formatação de acordo com o tamanho máximo (+2 para um espaço extra)
     for i in range(1, 6):
