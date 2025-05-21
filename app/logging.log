@@ -49,3 +49,77 @@
 2025-05-21 12:28:33,225 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
 2025-05-21 12:28:41,187 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
 2025-05-21 12:28:41,187 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:41:39,997 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-21 13:41:51,508 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 13:41:51,510 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 13:41:51,510 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-21 13:46:42,012 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-21 13:46:54,227 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 13:46:54,228 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 13:46:54,229 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-21 13:47:44,738 - INFO - Mensagem: Iniciou-se operacao de busca e registro de ncms na tabela ncm_entries Função: start_automation Arquivo: automation.py
+2025-05-21 13:48:36,382 - INFO - Mensagem: Iniciou-se operacao de busca e registro de ncms na tabela ncm_entries Função: start_automation Arquivo: automation.py
+2025-05-21 13:49:03,369 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:49:03,401 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:49:33,534 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:49:33,560 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:49:41,115 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:49:41,126 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:49:47,800 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:49:47,805 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:50:09,597 - INFO - Mensagem: Iniciou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 13:50:09,616 - INFO - Mensagem: Fizalizou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 13:50:28,032 - INFO - Mensagem: Iniciou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 13:50:28,060 - INFO - Mensagem: Fizalizou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 13:50:36,473 - INFO - Mensagem: Iniciou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 13:50:36,491 - ERROR - Mensagem: Nao foi encontrado ncm com ID fornecido como parametro Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 13:50:45,261 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:50:45,289 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:50:55,922 - INFO - Mensagem: Iniciou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 13:50:55,927 - ERROR - Mensagem: Nao foi encontrado ncm com ID fornecido como parametro Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 13:51:19,207 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:51:19,232 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:51:27,860 - INFO - Mensagem: Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 13:51:28,051 - INFO - Mensagem: Fizalizou-se operacao de exportação da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 13:58:13,388 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-21 13:58:21,781 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 13:58:21,782 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 13:58:21,782 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-21 13:58:39,360 - INFO - Mensagem: Iniciou-se operacao de busca e registro de ncms na tabela ncm_entries Função: start_automation Arquivo: automation.py
+2025-05-21 13:59:23,439 - INFO - Mensagem: Iniciou-se operacao de busca e registro de ncms na tabela ncm_entries Função: start_automation Arquivo: automation.py
+2025-05-21 13:59:35,744 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:59:35,767 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 13:59:44,790 - INFO - Mensagem: Iniciou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 13:59:44,810 - INFO - Mensagem: Fizalizou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 13:59:49,306 - INFO - Mensagem: Iniciou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 13:59:49,329 - INFO - Mensagem: Fizalizou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 13:59:52,483 - INFO - Mensagem: Iniciou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 13:59:52,487 - ERROR - Mensagem: Nao foi encontrado ncm com ID fornecido como parametro Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 13:59:58,251 - INFO - Mensagem: Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 13:59:58,406 - INFO - Mensagem: Fizalizou-se operacao de exportação da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 14:04:43,102 - INFO - Mensagem: Iniciou-se funcao de login de usuario Função: login Arquivo: login.py
+2025-05-21 14:04:50,492 - INFO - Mensagem: Inicio-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 14:04:50,493 - INFO - Mensagem: Finalizou-se da criacao do JWT token Função: gerar_token Arquivo: auth.py
+2025-05-21 14:04:50,493 - INFO - Mensagem: Finalizou-se funcção de login de usuario Função: login Arquivo: login.py
+2025-05-21 14:05:17,196 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:05:17,795 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:05:48,919 - INFO - Mensagem: Iniciou-se operacao de busca e registro de ncms na tabela ncm_entries Função: start_automation Arquivo: automation.py
+2025-05-21 14:06:26,561 - INFO - Mensagem: Iniciou-se operacao de busca e registro de ncms na tabela ncm_entries Função: start_automation Arquivo: automation.py
+2025-05-21 14:06:38,189 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:06:38,193 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:06:44,138 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:06:44,159 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:06:51,383 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:06:51,390 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:07:10,030 - INFO - Mensagem: Iniciou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 14:07:10,058 - INFO - Mensagem: Fizalizou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 14:07:20,900 - INFO - Mensagem: Iniciou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 14:07:20,928 - INFO - Mensagem: Fizalizou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 14:07:29,802 - INFO - Mensagem: Iniciou-se operacao de busca de ncm por ID informado Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 14:07:29,808 - ERROR - Mensagem: Nao foi encontrado ncm com ID fornecido como parametro Função: search_ncm_by_id Arquivo: results.py
+2025-05-21 14:07:34,172 - INFO - Mensagem: Iniciou-se operacao de remocao de ncm por ID informado Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 14:07:34,176 - ERROR - Mensagem: Nao foi encontrado ncm com ID fornecido como parametro Função: delete_ncm_by_id Arquivo: results.py
+2025-05-21 14:07:43,812 - INFO - Mensagem: Iniciou-se operacao de exportacao da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 14:07:43,969 - INFO - Mensagem: Fizalizou-se operacao de exportação da tabela ncm_entries para arquivo .xlsx Função: export_ncm_entries_data Arquivo: results.py
+2025-05-21 14:08:24,916 - INFO - Mensagem: Iniciou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py
+2025-05-21 14:08:24,947 - INFO - Mensagem: Finalizou-se operacao de busca de ncms paginada Função: get_ncms_paged Arquivo: results.py

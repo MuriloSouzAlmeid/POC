@@ -95,3 +95,7 @@ Um breve tutorial com exemplos de uso das rotas da API criada por meio do Swagge
 ### Deletando NCM Selecionado pelo ID
 
 ### Exportanto Dados Persistidos no Banco para uma Planilha Excel
+
+## Demonstração do fluxo completo:
+
+[https://youtu.be/py5AKNRIeMk](https://youtu.be/py5AKNRIeMk)
